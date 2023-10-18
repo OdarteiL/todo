@@ -11,7 +11,7 @@ export default function Navbar() {
         <a href="">About</a>
 
         {user && isAuthenticated ? (
-          <a onClick={() => logout()}>Logout</a>
+          <a onClick={() => logout({ logoutParams: { returnTo: location.origin } })}>Logout</a>
         ) : (
           <a onClick={() => loginWithRedirect()}>Login</a>
         )}
