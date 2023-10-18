@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -78,54 +82,46 @@ button {
 
 /* --------- Landing page --------- */
 
-.landing-container {
+/* .landing-container {
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
-}
+} */
 
-.image-side {
-  width: 50%;
-  height: 500px;
+/* .image-side {
   border-radius: 10px 0 0 10px;
 }
 
-.image-side img {
+ .image-side img {
   border-radius: 10px 0 0 10px;
-}
+} 
 
 .text-side {
-  width: 50%;
-  height: 500px;
-  padding: 50px 50px;
-  background-color: #012E40;
-  color: #fff;
   border-radius: 0 10px 10px 0;
-}
+} */
 
-.text-side span {
+/* .text-side span {
   color: #F28705;
-}
+} */
 
-.text-side h3 {
+/* .text-side h3 {
   margin-bottom: 10px;
-}
+} */
 
-.text-side h1 {
+/* .text-side h1 {
   font-family: Poppins, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 68px;
-}
+} */
 
-.start {
+/* .start {
   margin-top: 30px;
-}
+} */
 
-.start button {
+/* .start button {
   background-color: #F28705;
   width: 200px;
   font-weight: bold;
-}
+} */
