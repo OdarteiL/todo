@@ -24,8 +24,8 @@ export default function TodoPage() {
             <div className="container">
                 <input type="text" name='task' placeholder='Your Task here' />
                 <br />
-                <button>Submit</button>
-                <button>New Task</button>
+                <button type="submit" >Submit</button>
+                <button type="reset" >New Task</button>
 
             </div>
         </form>
